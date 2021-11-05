@@ -6,9 +6,24 @@
     tools:context=".ui.ListViewFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/test"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/listview" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginBottom="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="TODO" />
 
 </FrameLayout>
