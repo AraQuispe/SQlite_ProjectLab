@@ -1,7 +1,25 @@
 <resources>
     <string name="app_name">SQlite_ProjectLab</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="create">Create</string>
     <string name="listview">List View</string>
     <string name="edit">Editar </string>
+
+    <string name="title_create">Crear hospital</string>
+    <string name="title_list">Lista hospitales</string>
+    <string name="title_modificate">Modificar</string>
+    <string name="textView_addData">Ingrese datos</string>
+    <string name="textView_modifyData">Modifique datos</string>
+    <string name="editTextHint_hospitalName">Nombre del hospital</string>
+    <string name="editTextHint_district">Distrito</string>
+    <string name="editTextHint_province">Provincia</string>
+    <string name="editTextHint_region">Región</string>
+    <string name="editTextHint_description">Descripción</string>
+    <string name="editTextHint_latitude">Latitud</string>
+    <string name="editTextHint_longitude">Longitud</string>
+    <string name="buttonText_add">Agregar</string>
+    <string name="buttonText_modify">Modificar</string>
+    <string name="buttonText_cancel">Cancelar</string>
+    <string name="id">ID</string>
+    <string name="direcci_n">Dirección</string>
+
 </resources>

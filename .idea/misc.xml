@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programming/IDNP/IDNP_Lab07/SQlite_ProjectLab/app/src/main/res/layout/activity_main.xml" value="0.35688405797101447" />
+        <entry key="..\:/Programming/IDNP/IDNP_Lab07/SQlite_ProjectLab/app/src/main/res/layout/fragment_create.xml" value="0.360054347826087" />
+        <entry key="..\:/Programming/IDNP/IDNP_Lab07/SQlite_ProjectLab/app/src/main/res/layout/fragment_edit.xml" value="0.360054347826087" />
+        <entry key="..\:/Programming/IDNP/IDNP_Lab07/SQlite_ProjectLab/app/src/main/res/layout/fragment_list_view.xml" value="0.360054347826087" />
         <entry key="..\:/Users/ADMIN CAR/AndroidStudioProjects/SQlite_ProjectLab/app/src/main/res/drawable/ic_baseline_add.xml" value="0.2037037037037037" />
         <entry key="..\:/Users/ADMIN CAR/AndroidStudioProjects/SQlite_ProjectLab/app/src/main/res/drawable/ic_baseline_view_list.xml" value="0.1" />
         <entry key="..\:/Users/ADMIN CAR/AndroidStudioProjects/SQlite_ProjectLab/app/src/main/res/layout/activity_main.xml" value="0.17857142857142858" />
