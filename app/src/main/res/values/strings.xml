@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQlite_ProjectLab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="create">Create</string>
+    <string name="listview">List View</string>
+    <string name="edit">Editar </string>
+</resources>
