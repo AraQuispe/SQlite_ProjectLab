@@ -109,4 +109,31 @@ class DB_Helper(var context: Context):SQLiteOpenHelper(context, dbname, factory,
         return list
     }
 
+    fun readOneId(_id: String): Hospital? {
+        val db = this.readableDatabase
+        val query = "Select * from hospital WHERE id = ?"
+        db.rawQuery(query, arrayOf(_id)).use{
+            if(it.moveToFirst()) {
+                val hospital = Hospital()
+                hospital.setId(it.getString(0).toInt())
+                hospital.setName(it.getString(1))
+                hospital.setAddress(it.getString(2))
+                hospital.setDescription(it.getString(3))
+                hospital.setLatitude(it.getString(4).toFloat())
+                hospital.setLongitude(it.getString(5).toFloat())
+                return hospital
+            }
+        }
+        db.close()
+        return null
+    }
+
+
+    fun deleteItem(_id: Int): Boolean {
+        val db = this.writableDatabase
+        val _success = db.delete("hospital", "id" + "=?", arrayOf(_id.toString())).toLong()
+        db.close()
+        return Integer.parseInt("$_success") != -1
+    }
+
 }

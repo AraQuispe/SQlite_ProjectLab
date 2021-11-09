@@ -4,11 +4,11 @@
     <item
         android:id="@+id/create"
         android:icon="@drawable/ic_baseline_add"
-        android:title="Create" />
+        android:title="Crear" />
 
     <item
         android:id="@+id/viewList"
         android:icon="@drawable/ic_baseline_view_list"
-        android:title="All list" />
+        android:title="Listado" />
 
 </menu>
